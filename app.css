@@ -1,0 +1,496 @@
+.head {
+    position: relative;
+    width: 1512px;
+    height: 100px;
+}
+.logo {
+    position: absolute;
+    width: 147px;
+    height: 99px;
+    top: 1px;
+    left: 62px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.list.home {
+    position: absolute;
+    width: 50px;
+        height: 20px;
+    top: 39px;
+    left: 458px;
+}
+
+.list.about {
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    top: 39px;
+    left: 533px;
+
+}
+
+.list.product {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    top: 39px;
+    left: 633px;
+    
+}
+
+.list.care {
+    position: absolute;
+    width: 111px;
+    height: 20px;
+    top: 39px;
+    left: 723px;
+    
+}
+
+.list.wellness{
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    top: 39px;
+    left: 859px;
+    
+}
+.list.legal {
+    position: absolute;
+    width: 44px;
+    height: 20px;
+    top: 39px;
+    left: 956px;
+}
+
+.border {
+    position: absolute;
+    height: 31px;
+    top: 34px;
+    border-right: 1px solid #A9A9A9;
+}
+
+.border.one {
+    left: 1029px;
+    width: 48px;
+    border-left: 1px solid #A9A9A9;
+    
+}
+
+.border.two {
+    left: 1077px;
+}
+
+.search{
+    width: 18px;
+    height: 18px;
+    margin: 7px 15px;
+}
+
+.facebook {
+    width: 20px;
+    height: 20px;
+    margin: 7px 15px;
+}
+.x, .insta{
+    width: 14px;
+    height: 14px;
+    margin: 9px 15px 9px 0;
+}
+.three {
+    position: absolute;
+    left: 1200px;
+    top: 34px;
+}
+.cart {
+    width: 18px;
+    height: 18px;
+    margin: 7px 15px;
+}
+
+.btn {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    top: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.btn.genelogy {
+    left: 1236px;
+    border: 1px solid #393939;
+    margin-left: 18px;
+}
+
+.btn.login{
+    left: 1340px;
+    background-color: #490082;
+    margin-left: 18px;
+    color: white;
+}
+
+.productname {
+    background-image: url('/images/firstbg.png');
+    font-family: 'Inter', sans-serif;
+    color: white;
+    position: relative;
+    width: 1512px;
+    height: 864px;
+}
+.nameheading {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 100;
+    top: 509px; 
+    left: 73px;  
+}
+
+.desc {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+}
+.desc.one {
+    top: 538px;
+    left: 73px;
+}
+
+.knowmore {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    background-color: #490082;
+    color: white;
+    padding: 23px 32px;
+    font-weight: 700;
+    font-size: 24px;
+    width: 218px;
+    height: 75px;
+    
+    border: none;
+}
+
+.knowmore.one {
+    top: 639px;
+    left: 73px;
+}
+
+.arrow {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.arrow.left {
+    top: 650px;
+    left: 1295px;
+}
+
+.arrow.right{
+    top: 650px;
+    left: 1375px;
+}
+
+.slide2 {
+    position: relative;
+    width: 1512px;
+    height: 866px;
+}
+
+.img2 {
+    position: absolute;
+    width: 645px;
+    height: 685px;
+    top: 57px;
+    left: 101px;
+}
+
+.aboutus {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: 1F1F1F;
+    left: 875px;
+    top: 202px;
+}
+
+.desc.two {
+    top: 231px;
+    left: 875px;
+}
+
+.para {
+    position: absolute;
+    width: 572px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1F1F1F;
+}
+
+.para.one {
+    top: 324px;
+    left: 875px;
+    height: 75px;
+}
+.para.two {
+    top: 399px;
+    left: 875px;
+    height: 193px;
+}
+.spantag {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #490082;
+}
+
+.knowmore.two {
+    top: 619px;
+    left: 875px;
+}
+.slide3 {
+    position: relative;
+    width: 1512px;
+    height: 866px;
+    
+}
+
+.productdetails {
+    position: absolute;
+    top: 402px;
+    left: 73px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+.productdetails.two {
+    top: 559px;
+}
+.desc.three {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    width: 701px;
+    height: 96px;
+    top: 431px;
+    left: 73px;
+    z-index: 1;
+}
+.buy {
+    position: absolute;
+    width: 181px;
+    height: 75px;
+    top: 641px;
+    left: 73px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    background-color: #490082;
+    color: white;
+}
+
+.img3 {
+    position: absolute;
+    width: 834px;
+    height: 863px;
+    top: 0;
+    left: 638px;
+}
+
+.slide5{
+    position: relative  ;
+    width: 1512px;
+    height: 866px;
+}
+
+.img5 {
+    position: absolute;
+    width: 708px;
+    height: 866px;
+    left: 1px;
+    top: 0;
+}
+
+.heading5 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: right;
+    width: 701px;
+    height: 96px;
+    top: 384px;
+    left: 738px;
+    color: #1F1F1F;
+
+}
+
+.description {
+    position: absolute;
+    width: 701px;
+    height: 29px;
+    top: 480px;
+    left: 738px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    text-align: right;
+}
+.knowmore.three{
+    width: 248px;
+    height: 75px;
+    top: 562px;
+    left: 1191px;
+}
+
+.slide6 {
+    position: relative;
+    background-image: url('/images//img-6.png');
+    width: 1514px;
+    height: 866px;
+    mix-blend-mode: hard-light;
+    
+}
+
+.customer {
+    position: absolute;
+    width: 880px;
+    height: 60px;
+    top: 323px;
+    left: 316px;
+}
+
+.review {
+    position: absolute;
+    width: 880px;
+    height: 80px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+    top: 403px;
+    left: 316px;
+}
+
+.arrow.left2 {
+    top: 526px;
+    left: 684px;
+}
+.arrow.right2 {
+    top: 526px;
+    left: 764px;
+}
+
+.footer {
+    position: relative;
+    width: 1514px;
+    height: 224px;
+}
+
+.footerlogo {
+    position: absolute;
+    width: 147px;
+    height: 99px;
+    top: 18px;
+    left: 73px;
+}
+.footerlink {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #490082;
+    top: 40px;
+    padding: 16px 20px;
+    height: 56px;
+
+}
+
+.footerlink.about{
+    width: 110px;
+    left: 539px;
+}
+.footerlink.products{
+    width: 108px;
+    left: 653px;
+}
+.footerlink.blogs{
+    width: 82px;
+    left: 765px;
+}
+.footerlink.contactus{
+    width: 112px;
+    left: 851px;
+}
+
+.sociallogos {
+    position: absolute;
+    width: 104px;
+    height: 24px;
+    left: 1335px;
+    top: 56px;
+}
+
+.footerpara {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    top: 176px;
+}
+
+.footerpara.tandc{
+    width: 187px;
+    height: 28px;
+    left: 73px;
+}
+
+.footerpara.disclaimer{
+    width: 87px;
+    height: 28px;
+    left: 292px;
+}
+
+.footerpara.shippingpolicy{
+    width: 127px;
+    height: 28px;
+    left: 411px;
+}
+
+.footerpara.refundpolicy{
+    width: 114px;
+    height: 28px;
+    left: 570px;
+}
+
+.footerpara.rights{
+    width: 299px;
+    height: 28px;
+    left: 766px;
+}
+
+.footerpara.company{
+    width: 221px;
+    height: 22px;
+    left: 1090px;
+}
+.prodigit{
+    position: absolute;
+    width: 136px;
+    height: 68px;
+    top: 176px;
+    left: 1314px;
+}
