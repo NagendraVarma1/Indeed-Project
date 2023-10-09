@@ -199,7 +199,7 @@ a {
     left: 1375px;
 }
 
-.slide2 {
+.slide2, .slide3, .slide5, .slide7, .slide8 {
     position: relative;
     width: 1512px;
     height: 866px;
@@ -258,12 +258,6 @@ a {
     top: 619px;
     left: 875px;
 }
-.slide3 {
-    position: relative;
-    width: 1512px;
-    height: 866px;
-    
-}
 
 .productdetails {
     position: absolute;
@@ -309,11 +303,6 @@ a {
     left: 638px;
 }
 
-.slide5{
-    position: relative  ;
-    width: 1512px;
-    height: 866px;
-}
 
 .img5 {
     position: absolute;
@@ -394,10 +383,74 @@ a {
     left: 764px;
 }
 
+.product1 {
+    text-align: center;
+    margin-top: 60px;
+}
+.product1para{
+    text-align: center;
+}
+
+.figure {
+    width: 1400px;
+    margin-left: 56px;
+}
+
+.img7{
+    width: 1400px;
+    height: 700px;
+    margin-left: 0px;
+}
+
+.figcaption {
+    text-align: center;
+    margin-top: 10px;
+    width: 1200px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+.slide8 {
+    position: relative;
+    width: 1512px;
+    height: 866px;
+    display: flex;
+}
+
+.imagediv {
+    width: 50%;
+}
+
+.img8 {
+    position: absolute;
+    top: 33px;
+    left: 56px;
+    height: 800px;
+}
+
+.productdetail {
+    width: 50%;
+    margin-top: 30px;
+    padding-right: 50px;
+    
+}
+
+.productdetail>p {
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.caption {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:100;
+    text-align: center;
+}
+
 .footer {
     position: relative;
     width: 1514px;
     height: 224px;
+    background-color: rgba(132, 129, 129, 0.7);
 }
 
 .footerlogo {
