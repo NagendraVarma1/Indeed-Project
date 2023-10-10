@@ -386,6 +386,7 @@ a {
 .product1 {
     text-align: center;
     margin-top: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .product1para{
     text-align: center;
@@ -490,7 +491,27 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: opacity(50%);
+    filter: sepia(50);
+}
+
+.benefits-heading {
+    position: absolute;
+    top: 280px;
+    left: 150px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.benefits {
+    position: absolute;
+    width: 400px;
+    top: 200px;
+    background-color: rgb(108, 103, 103, 30%);
+    border-radius: 15px;
+    left: 900px;
+    color: white;
+    font-size: 20px;
 }
 
 /* SLIDE 11 STYLING */
@@ -499,6 +520,48 @@ a {
     position: relative;
     width: 1512px;
     height: 766px;
+}
+
+.other-products {
+    position: absolute;
+    top: 33px;
+    left: 56px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.products-images {
+    position: absolute;
+    top: 120px;
+    width: 1400px;
+    height: 620px;
+    left: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-products-images {
+    width: 695px;
+}
+
+.other-products-images.one{
+    filter: hue-rotate(180deg);
+}
+
+.other-products-images.two{
+    filter: grayscale(100%);
+}
+
+.other-first-product-details{
+    position: absolute;
+    top: 600px;
+    left: 120px;
+}
+
+.other-second-product-details{
+    position: absolute;
+    top: 600px;
+    left: 815px;
 }
 
 /* FOOTER STYLING */
